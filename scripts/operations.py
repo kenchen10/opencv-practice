@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('data/messi5.jpg')
-img2 = cv2.imread('data/opencv-logo.png')
+img = cv2.imread('./data/messi5.jpg')
+img2 = cv2.imread('./data/opencv-logo.png')
 print(img.shape)
 print(img.size)
 print(img.dtype)

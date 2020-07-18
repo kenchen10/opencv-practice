@@ -14,7 +14,7 @@ def click_event(event, x, y, flags, param):
         mycolorImage[:] = [blue, green, red]
         cv2.imshow('color', mycolorImage)
 
-img = cv2.imread('data/lena.jpg')
+img = cv2.imread('./data/lena.jpg')
 cv2.imshow('image', img)
 points = []
 

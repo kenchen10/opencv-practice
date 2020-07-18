@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-path = 'data/'
+path = './data/'
 # img = cv2.imread(path + 'lena.jpg', 1)
 img = np.zeros([512, 512, 3], np.uint8)
 
